@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 app.post('/send-email', (req, res) => {
   const { name, email, message } = req.body;
   const chatId = '@sophiathepromoter';
-  const botToken = '6031687053:AAEzZ1dy3Z0Lxg4tl0VXm0a9NT2HJ_vpGog';
+  const botToken = '6031687053:AAEzZ1dy3Z0Lxg4tl0VXm0a9NT2HJ_vpGog'; 
   const text = `New contact form submission:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`;
 
   // Send message to Telegram bot
